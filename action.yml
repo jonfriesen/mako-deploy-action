@@ -1,0 +1,9 @@
+name: 'Deploy to Mako'
+author: 'Jon Friesen'
+branding:
+  icon: 'upload-cloud'
+  color: 'blue'
+description: 'Deploys your Mako app from GitHub Actions'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
